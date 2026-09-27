@@ -1,0 +1,106 @@
+body {
+  /* Set line height to 1.5 times the font size
+     and use the OS's UI font as the website font
+   */
+  font: 100%/1.5 system-ui;
+  max-width: 70ch;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  color: #0a5bd3;
+}
+
+img {
+  display: block;
+  max-width: 18rem;
+  width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+  max-width: 36rem;
+}
+
+label {
+  display: grid;
+  gap: 0.25rem;
+}
+
+input,
+textarea,
+button {
+  font: inherit;
+}
+
+textarea {
+  min-height: 8rem;
+}
+
+.resume-header {
+  border-bottom: 2px solid #222;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.resume-header h1 {
+  margin-bottom: 0.25rem;
+}
+
+.resume-header address {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  font-style: normal;
+}
+
+.resume section {
+  margin-block: 2rem;
+}
+
+.resume section > h2 {
+  border-bottom: 1px solid #aaa;
+  font-size: 1.15rem;
+  text-transform: uppercase;
+}
+
+.resume article + article {
+  margin-top: 1.75rem;
+}
+
+.resume-item-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.resume-item-header h3,
+.resume-item-header p {
+  margin-block: 0.25rem;
+}
+
+.resume-item-header > p {
+  flex-shrink: 0;
+}
+
+@media (max-width: 40rem) {
+  body {
+    padding: 1rem;
+  }
+
+  .resume-item-header {
+    display: block;
+  }
+}
