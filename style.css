@@ -27,6 +27,14 @@ img {
   margin: 1rem 0;
 }
 
+.home-photo {
+  margin: 1rem 0;
+}
+
+.home-photo img {
+  margin-bottom: 0.5rem;
+}
+
 form {
   display: grid;
   gap: 1rem;
