@@ -184,3 +184,108 @@ button {
     display: block;
   }
 }
+
+#profile-stats dl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+}
+
+#profile-stats dt {
+  grid-row: 1;
+  font-size: 80%;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+#profile-stats dd {
+  grid-row: 2;
+  margin: 0;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.projects article > div p {
+  margin-block: 0.25em;
+}
+
+.project-year {
+  font-family: Baskerville, Georgia, serif;
+  font-variant-numeric: oldstyle-nums;
+  font-style: italic;
+  opacity: 0.7;
+}
+
+/* Lab 5: pie chart, legend, search */
+.container {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+#projects-pie-plot {
+  width: 20em;
+  max-width: 100%;
+  margin-block: 2em;
+  overflow: visible;
+  flex-shrink: 0;
+
+  &:has(path:hover) {
+    path:not(:hover) {
+      opacity: 0.5;
+    }
+  }
+
+  path {
+    transition: 300ms;
+    cursor: pointer;
+  }
+}
+
+.legend {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  gap: 1em;
+  margin: 0;
+  padding: 1em;
+  border: 1px solid oklch(50% 10% 200 / 40%);
+  border-radius: 0.5em;
+  list-style: none;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  cursor: pointer;
+}
+
+.swatch {
+  display: inline-block;
+  width: 1em;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  background-color: var(--color);
+}
+
+.selected {
+  --color: oklch(60% 45% 0) !important;
+
+  &:is(path) {
+    fill: var(--color);
+  }
+}
+
+.searchBar {
+  width: 100%;
+  margin-bottom: 2em;
+  padding: 0.5em;
+  box-sizing: border-box;
+}
+
+@media (max-width: 40rem) {
+  .container {
+    flex-direction: column;
+  }
+}

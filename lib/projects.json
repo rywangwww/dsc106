@@ -1,0 +1,107 @@
+[
+  {
+    "title": "弈仙牌 LLM Arena",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Four DeepSeek-powered bots teach themselves the 4-player card auto-battler 弈仙牌 (YiXianPai) over 30 games of self-play, with an analysis report and full replays.",
+    "url": "https://github.com/raymondWRW/yixianpai-llm-arena"
+  },
+  {
+    "title": "Israel & Palestine Infographic",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "A TypeScript infographic on the creation of Israel and Palestine.",
+    "url": "https://github.com/rywangwww/creation-of-Isreal-and-Palestine-inforgraphic"
+  },
+  {
+    "title": "Yi Xian Card Explorer",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Interactive win-rate and popularity explorer for Yi Xian (弈仙牌) cards, built from a public replay dataset.",
+    "url": "https://github.com/raymondWRW/yxp-card-stats"
+  },
+  {
+    "title": "Yixian Deck Depletion Model",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Simulates how many cards remain in the shared deck each round to compare the old and new card-drawing and reroll mechanics.",
+    "url": "https://github.com/rywangwww/yixian-card-drawn-chances"
+  },
+  {
+    "title": "YiXian Counter (proxy-driven)",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "An always-on-top window that reads YiXianPai game traffic through a local proxy to show a live card counter, board state, and a first-8-turns damage calculator.",
+    "url": "https://github.com/raymondWRW/yixian-card-counter-with-proxy"
+  },
+  {
+    "title": "Earth Carbon Visualized",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "A data visualization project exploring Earth's carbon data in a Jupyter notebook.",
+    "url": "https://github.com/raymondWRW/Earth-Carbon-Visualized"
+  },
+  {
+    "title": "DSC 106 Lab 6",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "A JavaScript data visualization lab for DSC 106.",
+    "url": "https://github.com/rywangwww/lab6"
+  },
+  {
+    "title": "Yixian Overlay Damage Calculator",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "A desktop overlay for 弈仙牌 that recognizes the cards in your hand and simulates cumulative damage over the first 8 turns.",
+    "url": "https://github.com/rywangwww/yixian-card-counter-damage-calculator"
+  },
+  {
+    "title": "DSC 106 Lab 1",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "My first DSC 106 lab, an introduction to building for the web.",
+    "url": "https://github.com/rywangwww/Lab01-Dsc106"
+  },
+  {
+    "title": "Godot Testing Game",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "A small game prototype written in GDScript with the Godot engine.",
+    "url": "https://github.com/raymondWRW/testing-game"
+  },
+  {
+    "title": "COGS 108 Project",
+    "year": "2024",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Group data science project for COGS 108.",
+    "url": "https://github.com/rywangwww/COGS108_Repo"
+  },
+  {
+    "title": "DSC 80 Projects",
+    "year": "2024",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Coursework and projects from DSC 80 (The Practice and Application of Data Science).",
+    "url": "https://github.com/rywangwww/dsc80"
+  },
+  {
+    "title": "Texas Hold'em Bot",
+    "year": "2022",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "A Python Texas Hold'em engine with bot players that track stages, bets, and community cards.",
+    "url": "https://github.com/raymondWRW/texas-bot"
+  },
+  {
+    "title": "Civ Card Game",
+    "year": "2022",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "A card-based civilization game written in Python.",
+    "url": "https://github.com/raymondWRW/civ"
+  },
+  {
+    "title": "BERT Decryption",
+    "year": "2021",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "An early Python experiment using BERT for decryption.",
+    "url": "https://github.com/raymondWRW/bert_decryption"
+  }
+]
