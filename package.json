@@ -1,0 +1,7 @@
+{
+  "name": "dsc106",
+  "private": true,
+  "devDependencies": {
+    "elocuent": "^0.0.4"
+  }
+}
